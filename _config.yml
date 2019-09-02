@@ -1,0 +1,24 @@
+title:              Suggestions, Success and Cicadas
+email:              isaiah@ijbarker.me
+description:        An entomologist-eccentric's guide to surviving an equally weird world.
+author:             Isaiah J. Barker
+baseurl:            "/blog"
+url:                "https://ijbarker.me"
+
+# Social Profiles
+twitter_username:
+github_username:    github.com/ibarker1
+facebook_username:
+linkedin_username:  https://www.linkedin.com/in/isaiahbarker89
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
